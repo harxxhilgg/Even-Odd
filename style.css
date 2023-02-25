@@ -3,8 +3,8 @@
 }
 
 textarea {
-            width: 60%;
-            height: 20vh;
+            width: 50%;
+            height: 5vh;
             display: block;
             margin: auto;
             padding: 1rem 1rem 1rem 1rem;
@@ -15,7 +15,8 @@ textarea {
 }
 
 .translate-btn {
-    margin-left: 50%;
+    display: block; 
+    margin: auto;
     margin-top: 1rem;
 }
 
@@ -29,4 +30,5 @@ textarea {
     width: 80%;
     margin: auto;
     padding: 1rem;
+    display: block;
 }
