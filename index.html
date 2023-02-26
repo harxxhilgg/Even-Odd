@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Speak</title>
-    <link rel="stylesheet" href="style.css">
-    
+	<title>Even or Odd Checker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Even or Odd checker!</title>
 </head>
 <body>
-    
-    <h1 class="txt-banana">Palindrome or not!? : </h1>
-    <textarea id="txt-input" placeholder="Type here to check..."></textarea>
-    <button class="translate-btn" id="btn-translate">Translate</button>
+	<h1>Even or Odd Checker</h1>
+	<p>Enter a number below to check if it's even or odd:</p>
+	<input type="text" id="numberInput" placeholder="enter an Integer!">
+	<button onclick="checkNumber()">Check</button>
+	<p id="result"></p>
 
-    <div class="output-txt">
-        <h2>Output will come here: </h2>
-    </div>
-    <div id="output"></div>
-
-    <script src="app.js" type="text/javascript"></script>
+	<script src="app.js"></script>
 </body>
 </html>
